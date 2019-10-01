@@ -1,0 +1,18 @@
+#Local MongoDB config
+
+spring:
+  data:
+    mongodb:
+      authentication-database: empportal
+      username: svcemp
+      password: emp123
+      database: empportal
+      port: 27017
+      host: localhost
+  application:
+    name: employee-portal-service
+
+# App config
+
+server:
+  port: 8080
